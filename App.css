@@ -1,0 +1,23 @@
+/* Define keyframes for the animation */
+@keyframes slider {
+  0% {
+    background-image: url('/public/bg.jpg');
+  }
+  50% {
+    background-image: url('/public/bg2.jpg');
+  }
+  100% {
+    background-image: url('/public/bg3.jpg');
+  }
+}
+
+/* Apply animation to the body element */
+.bg-image {
+  animation: slider 10s infinite ease-out;
+  background-size: cover;
+}
+
+.bg-landing{
+  background-size: cover;
+  background-image: url(/public/bg4.jpg);
+}
